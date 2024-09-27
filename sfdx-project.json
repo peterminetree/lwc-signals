@@ -11,9 +11,22 @@
     {
       "path": "examples",
       "default": true
+    },
+    {
+      "path": "force-app",
+      "package": "Signal Framework",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
+  "namespace": "pmsignals",
   "name": "lwc-signals",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "60.0"
+  "sourceApiVersion": "60.0",
+  "packageAliases": {
+    "Signal Framework": "0Hoak0000000FBxCAM",
+    "Signal Framework@0.1.0-1": "04tak0000003EsrAAE"
+  }
 }
